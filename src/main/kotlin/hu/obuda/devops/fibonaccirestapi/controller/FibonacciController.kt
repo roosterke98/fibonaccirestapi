@@ -24,8 +24,8 @@ class FibonacciController {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).build()
         }
 
-        val result = fibonacciService?.fibonacci(n)
-        return ResponseEntity.ok(result)
+        //val result =
+        return ResponseEntity.ok(fibonacciService?.fibonacci(n))
     }
 
 
